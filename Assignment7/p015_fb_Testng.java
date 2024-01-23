@@ -20,9 +20,9 @@ public class p015_fb_Testng {
    @Test
    public void login () {
       WebElement email = driver.findElement(By.id("email"));
-      email.sendKeys("sandhiaakib5@gmail.com");
+      email.sendKeys("APatel@gmail.com");
       WebElement password = driver.findElement(By.id("pass"));
-      password.sendKeys("S@ndhi9596");
+      password.sendKeys("Ap@9062");
       WebElement loginclick = driver.findElement(By.id("login"));
       loginclick.click();
       

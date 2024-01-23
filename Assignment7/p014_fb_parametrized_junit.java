@@ -45,14 +45,14 @@ public void login()throws InterruptedException {
 @Parameters
 public static List<Object[]> getdata () {
 	Object obj[][] = new Object[3][2];
-	obj [0][0] = "sandhiaakib5@gmail.com";
-	obj [0][1] = "S@ndhi9596";
+	obj [0][0] = "APatel@gmail.com";
+	obj [0][1] = "Ap@9062";
 	 
-    obj [1][0] = "9265457854";
-    obj [1][1] = "9265457854";
+    obj [1][0] = "8469181334";
+    obj [1][1] = "9925903699";
     
-    obj [2][0] = "sandhhiaakib";
-    obj [2][1] = "aakib9596";
+    obj [2][0] = "PatelShiv";
+    obj [2][1] = "8469181334";
     
     		
    return Arrays.asList(obj); 		

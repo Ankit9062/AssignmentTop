@@ -22,9 +22,9 @@ public class p013_fb_junit {
    @Test
     public void login() {
 	   WebElement username = driver.findElement(By.name("email"));
-	   username.sendKeys("sandhiaakib5@gmail.com");
+	   username.sendKeys("patelankit@gmail.com");
 	   WebElement pass = driver.findElement(By.name("pass"));
-	   pass.sendKeys("S@ndhi9596");
+	   pass.sendKeys("Ankit@1993");
        WebElement login = driver.findElement(By.name("login"));
        login.click();
 

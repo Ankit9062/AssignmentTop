@@ -39,26 +39,21 @@ public class p016_fb_parametrized_Testng {
     	  
 }
     @DataProvider(name = "aakib")
-    public static List<Object[]> getdata () {
-    	 Object obj[][] = new Object[4][2];
-    	 obj [0][0] = "sandhiaakib5@gmail.com";
-    	 obj [0][1] = "S@ndhi9596";
-    	 
-    	 obj [1][0] = "9265457854";
-    	 obj [1][1] = "9265457854";
-    	 
-    	 obj [2][0] = "Aakib9596";
-    	 obj [2][1] = "A@kib9596";
-    	 
-    	 obj [3][0] = "salimhusen";
-    	 obj [3][1] = "s@ndhi9596";
-    			 
-    	return Arrays.asList(obj);
-    	
-    	
-    	
-    	
-    }
+public static List<Object[]> getdata () {
+	Object obj[][] = new Object[3][2];
+	obj [0][0] = "APatel@gmail.com";
+	obj [0][1] = "S@ndhi9596";
+	 
+    obj [1][0] = "8469181334";
+    obj [1][1] = "9925903699";
+    
+    obj [2][0] = "PatelShiv";
+    obj [2][1] = "8469181334";
+    
+    		
+   return Arrays.asList(obj); 		
+			
+}
 
 
 
