@@ -42,7 +42,7 @@ public class p016_fb_parametrized_Testng {
 public static List<Object[]> getdata () {
 	Object obj[][] = new Object[3][2];
 	obj [0][0] = "APatel@gmail.com";
-	obj [0][1] = "S@ndhi9596";
+	obj [0][1] = "Ap@90-62";
 	 
     obj [1][0] = "8469181334";
     obj [1][1] = "9925903699";
