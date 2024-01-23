@@ -28,7 +28,7 @@ public class p016_fb_parametrized_Testng {
     	  String url = "https://www.facebook.com";
     	  driver = driverconnection.getDriver(url);
     	    }
-	  @Test(dataProvider = "aakib" )
+	  @Test(dataProvider = "Akit" )
       public void login () {
     	  WebElement emailele = driver.findElement(By.id("email"));
     	  emailele.clear();
@@ -38,7 +38,7 @@ public class p016_fb_parametrized_Testng {
     	  passele.sendKeys(password);
     	  
 }
-    @DataProvider(name = "aakib")
+    @DataProvider(name = "Akit")
 public static List<Object[]> getdata () {
 	Object obj[][] = new Object[3][2];
 	obj [0][0] = "APatel@gmail.com";
